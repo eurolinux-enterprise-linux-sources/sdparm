@@ -1,7 +1,7 @@
 Summary:       List or change SCSI/SATA disk parameters
 Name:          sdparm
 Version:       1.08
-Release:       1%{?dist}
+Release:       3%{?dist}
 License:       BSD
 Group:         Applications/System
 URL:           http://sg.danny.cz/sg/sdparm.html
@@ -50,6 +50,12 @@ such that the disk stops operating or is slowed down. Use with care.
 %{_mandir}/man8/scsi_ch_swp*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.08-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.08-2
+- Mass rebuild 2013-12-27
+
 * Sun Jun 09 2013 Terje Rosten <terje.rosten@ntnu.no> - 1.08-1
 - 1.08
 
